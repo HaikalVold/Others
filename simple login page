@@ -1,0 +1,127 @@
+Copy paste itu menyelamatkan wkwkw don't forget to subscribe hehe
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Joie Patsy</title>
+	<!-- just some information -->
+	<meta name="author" content="Joiechee">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- import jquery, google font api & font awesome -->
+	<script src="https://code.jquery.com/jquery-3.1.0.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Cookie|Dancing+Script|Great+Vibes|Kalam|Kaushan+Script|Mansalva|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!-- --------------------------------------------------- -->
+	<style>
+		* {
+			margin: 0px;
+			padding: 0px;	
+			font-family: sans-serif;	
+			color: #555;	
+		}
+		:root {
+			font-size: 16px;
+		}
+		::selection {
+			background: #8dede333;
+		}
+		.container {
+			width: 100vw;
+			height: 100vh;
+			position: relative;
+			background: white;
+			overflow: hidden;
+		}
+		.container #title {			
+			text-transform: uppercase;
+			font-size: 1.4rem;
+			text-align: center;
+			margin-bottom: 16px;
+			letter-spacing: 6px;
+			margin-left: 10px;
+		}
+		.container img {
+			width: 600px;
+			opacity: .1;
+			position: absolute;
+			top: 0px;
+			right: 0px;
+		}
+		.container form {
+			border-bottom: 1px solid silver;
+			position: absolute;
+			top: 46%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			display: flex;
+			flex-direction: column;
+			width: 400px;
+			padding: 29px 20px;
+			box-sizing: border-box;
+		}
+		.container form input {
+			margin: 10px 0px;
+			padding: 12px;
+			text-align: center;
+			outline: none;
+			border: none;
+			background: #eee;
+			border-radius: 3px;
+		}
+		.container form input:focus {
+			background: none;
+			border-bottom: 1px solid #8dede3;
+		}
+		.container form input[type=submit] {
+			margin-bottom: 0px;
+			background: #8dede3;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			padding-left: 16px;
+			padding: 20px;
+		}
+		.container form a {
+			padding: 8px;
+			position: absolute;
+			bottom: -50px;
+			font-family: 'Open Sans Condensed';
+			right: 20px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: .8rem;
+			font-weight: bold;
+			letter-spacing: 2px;
+		}
+		.container form a:hover {
+			color: #6bcbc1;
+			transform: rotateX(320deg);
+		}
+		@media (max-width: 480px) {
+			.container form {
+				width: 100%;
+				border: none;
+			}
+			.container form a {
+				bottom: -29px;
+				right: 26px;
+			}
+			:root {
+				font-size: 14px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="https://static.wixstatic.com/media/2cd43b_a12821fb4a8e47bab86119fec2f14c33~mv2_d_1493_2801_s_2.png?dn=file">
+		<form>
+			<div id="title">Login</div>
+			<input type="text" name="terserahkalian3" placeholder="Username" autofocus>
+			<input type="password" name="terserahkalian2" placeholder="Password">
+			<input type="submit" name="terserahkalian3" value="login">
+			<a href="#">Sign Up</a>
+		</form>
+	</div>
+</body>
+</html>
