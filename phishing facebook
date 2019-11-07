@@ -1,0 +1,239 @@
+1. Buat sebuah file html baru.
+2. Copy source code di bawah ini, lalu paste di dalam file html yang telah dibuat.
+3. Subscribe ya wkwk
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log in to Facebook | Facebook</title>
+	<style>
+		* {
+			font-family: sans-serif;
+			color: white;
+			margin: 0px;
+			padding: 0px;
+		}
+		body {
+			background: #e9ebee;
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+		}
+		.container .header {
+			background: linear-gradient(#4e69a2,#3b5998);
+			height: 83px;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			padding: 0px 180px;
+		}
+		.container .header > a {
+			width: 170px;
+			height: 55px;
+			font-family: 'Facebook Letter Faces Regular';
+			text-decoration: none;
+			display: flex;
+			justify-content: center;
+			align-items: flex-end;
+			font-size: 38px;			
+		}
+		.container .header div {
+			display: flex;
+			align-items: flex-end;
+			height: 48px;
+		}
+		.container .header div > a {
+			width: 116.250px;
+			height: 26px;
+			background: #42b72a;
+			font-weight: bold;
+			text-decoration: none;
+			font-size: 12px;
+			padding: 4px 12px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 2px;		
+		}
+		.container .content {
+			padding: 80px 0px;
+			width: 100%;
+		}
+		.container .content form {
+			display: flex;
+			flex-direction: column;
+			background: white;
+			width: 614px;
+			height: 376px;
+			margin: 0px auto;
+			padding: 0px 109px;
+			box-sizing: border-box;
+			justify-content: center;
+			align-items: center;
+		}
+		.container .content form .title {
+			text-align: center;
+			color: #1c1e21;
+			font-size: 18px;
+			margin-bottom: 14px;
+		}	
+		.container .content form input {
+			margin: 8px;
+			width: 284px;
+			height: 22px;
+			padding: 5px 8px;
+			border-radius: 2px;
+			border: 1px solid rgb(229,229,229);
+			outline: none;
+			background: none;
+			color: #555;
+		}
+		.container .content form input[type="submit"] {			
+			width: 304px;
+			height: 42px;
+			background: #4267b2;
+			border: none;
+			color: white;
+		}
+		.container .content form .forgot {
+			font-size: 12px;
+			text-decoration: none;
+			margin-top: 4px;
+			color: #4267b2;
+		}
+		.container .content form .or {
+			height: 1px;
+			width: 304px;
+			background: silver;
+			margin: 26px 0px;
+			position: relative;
+		}					
+		.container .content form .or::after {
+			content: "or";
+			position: absolute;
+			width: 40px;
+			text-align: center;
+			background: white;
+			color: #1c1e21;
+			font-size: 12px;
+			top: -8px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		.container .content form .create {
+			width: 160.250px;
+			height: 35px;
+			background: #42b72a;
+			font-weight: bold;
+			text-decoration: none;
+			font-size: 14px;
+			padding: 4px 12px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 2px;
+		}
+		.container .footer {
+			display: flex;
+			flex-direction: column;
+			padding: 100px 180px;
+			padding-bottom: 20px;
+			background: white;
+		}
+		.container .footer .subfooter {
+			padding-bottom: 9px;
+			margin: 6px 0px;
+		}
+		.container .footer .subfooter1 {
+			border-bottom: 1px solid rgba(220,220,220);
+		}
+		.container .footer .subfooter3 {
+			color: #333;
+			font-size: 11px;
+			padding: 6px;
+			color: grey;
+		}
+		.container .footer a {
+			color: #4267b2;
+			text-decoration: none;
+			font-size: 12px;
+			margin: 0px 6px;
+		}
+		.container .footer span {
+			color: #333;
+			font-size: 20px;
+			background: rgba(240,240,240);
+			border: 1px solid rgba(220,220,220);
+			padding: 0px 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<a href="#">Facebook</a>
+			<div><a href="#">Create New Account</a></div>
+		</div>
+		<div class="content">
+			<form action="" method="">
+				<div class="title">Log in to Facebook</div>
+				<input type="email" name="email" placeholder="Email address or phone number"> 
+				<input type="password" name="password" placeholder="Password"> 
+				<input type="submit" name="submit" value="Log In"> 
+				<a href="#" class="forgot">Forgotten account?</a>
+				<div class="or"></div>
+				<a href="#" class="create">Create New Account</a>
+			</form>
+		</div>
+		<div class="footer">			
+			<div class="subfooter subfooter1">
+				<a href=""#>English (UK)</a>
+				<a href=""#>Bahasa Indonesia</a>
+				<a href=""#>Basa Jawa</a>
+				<a href=""#>Bahasa Melayu</a>
+				<a href=""#>日本語</a>
+				<a href=""#>العربية</a>
+				<a href=""#>Français (France)</a>
+				<a href=""#>Español</a>
+				<a href=""#>한국어</a>
+				<a href=""#>Português (Brasil)</a>
+				<a href=""#>Deutsch</a>
+				<span>+</span>
+			</div>
+			<div class="subfooter subfooter2">
+				<a href="#">Sign Up</a>
+				<a href="#">Sign In</a>
+				<a href="#">Messenger</a>
+				<a href="#">Facebook Lite</a>
+				<a href="#">Watch</a>
+				<a href="#">People</a>
+				<a href="#">Pages</a>
+				<a href="#">Page categories</a>
+				<a href="#">Places</a>
+				<a href="#">Games</a>
+				<a href="#">Locations</a>
+				<a href="#">Marketplace</a>
+				<a href="#">Groups</a>
+				<a href="#">Instagram</a>
+				<a href="#">Local</a>
+				<a href="#">Fundraisers</a>
+				<a href="#">Services</a>
+				<a href="#">About</a>
+				<a href="#">Create ad</a>
+				<a href="#">Create Page</a>
+				<a href="#">Developers</a>
+				<a href="#">Careers</a>
+				<a href="#">Privacy</a>
+				<a href="#">Cookies</a>
+				<a href="#">AdChoices</a>
+				<a href="#">Terms</a>
+				<a href="#">Help</a>
+			</div>
+			<div class="subfooter subfooter3">
+				Facebook &copy; 2019
+			</div>
+		</div>
+	</div>
+</body>
+</html>
